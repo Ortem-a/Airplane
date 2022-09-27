@@ -361,7 +361,7 @@ namespace UnityStandardAssets.ImageEffects
                 GL.PushMatrix ();
                 GL.LoadIdentity ();
 
-                // point filter mode is important, otherwise we get bokeh shape & size artefacts
+                // _point filter mode is important, otherwise we get bokeh shape & size artefacts
                 bokehInfo.filterMode = FilterMode.Point;
 
                 float arW = (bokehInfo.width * 1.0f) / (bokehInfo.height * 1.0f);

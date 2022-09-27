@@ -59,7 +59,7 @@ namespace UnityStandardAssets.ImageEffects
             // Clamp the motion blur variable, so it can never leave permanent trails in the image
             blurAmount = Mathf.Clamp( blurAmount, 0.0f, 0.92f );
 
-            // Setup the texture and floating point values in the shader
+            // Setup the texture and floating _point values in the shader
             material.SetTexture("_MainTex", accumTexture);
             material.SetFloat("_AccumOrig", 1.0F-blurAmount);
 
