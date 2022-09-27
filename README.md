@@ -9,5 +9,8 @@
 4. Для разработки взять готовый рельеф, например:
 https://assetstore.unity.com/packages/3d/environments/landscapes/realistic-terrain-collection-lite-47726
 
-Если не видит папку со скриншотами:
+### Если не видит папку со скриншотами:
 - Необходимо создать папку Screenshots на одном уровне с папкой Assets (там же, где есть папка Assets)
+
+### Графики
+- В папке Graphics находится скрипт graphics.py, который создает 3 графика в .png
