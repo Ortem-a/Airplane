@@ -22,7 +22,7 @@ public class Screenshot : MonoBehaviour
         yield return new WaitForEndOfFrame();
 
         string filename = _count.ToString("00000");
-        string path = $"C:/UnityProjects/Airplane/Screenshots/{filename}.png";
+        string path = $"./Screenshots/{filename}.png";
 
         Texture2D screenImage = new Texture2D(Screen.width, Screen.height);
 

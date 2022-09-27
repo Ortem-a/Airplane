@@ -33,13 +33,13 @@ public class Data : MonoBehaviour
                 streamWriter.WriteLine(data.Coordinates[i].x + ";" + data.Coordinates[i].y);
             }
 
-            streamWriter = new StreamWriter("C:/UnityProjects/Airplane/Graphics/h_velocity.txt");
+            streamWriter = new StreamWriter("./Graphics/h_velocity.txt");
             for (int i = 0; i < data.HorizontalVelocity.Length; i++)
             {
                 streamWriter.WriteLine(data.HorizontalVelocity[i].x + ";" + data.HorizontalVelocity[i].y);
             }
 
-            streamWriter = new StreamWriter("C:/UnityProjects/Airplane/Graphics/v_velocity.txt");
+            streamWriter = new StreamWriter("./Graphics/v_velocity.txt");
             for (int i = 0; i < data.VerticalVelocity.Length; i++)
             {
                 streamWriter.WriteLine(data.VerticalVelocity[i].x + ";" + data.VerticalVelocity[i].y);
